@@ -40,7 +40,7 @@ The SDSS dataset under consideration has 18 features. We employed different dime
 A standard scalar was used to transform the feature values between 0 and 1. Where 0 is the mean and 1 represents the standard deviation. Also, for dataset division, an 80-20 split was created in which 80% is reserved for training while the rest of 20% is used for testing. 
 
 Let's discuss the results obtained on each Random Forest. On original data, we achieved an accuracy of 0.9777 and with PCA, LDA, and AE on original data, the accuracy achieved was 0.9323, 0.9016, and 0.969 respectively. Similarly, Using Down-sampled data, we achieved accuracies of 0.9762, 0.9281, 0.8925, and 0.9668 on downsampling, PCA, LDA, and Ae respectively. Then on upsampling, we achieved 0.9926, 0.9743, 0.9461, and 0.9890 accuracies on upsampled data, PCA, LDA, and AE.
-## Random Forest Accuracy
+# Results
 
 | Method            | Accuracy  |
 |-------------------|-----------|
