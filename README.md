@@ -4,4 +4,6 @@ Improving our knowledge of the properties and cosmic distribution of celestial o
 We used a variety of classification methods on the dataset, evaluating each one's accuracy-based performance.
 # Dataset
 We obtained the Sloan Digital Sky Survey (SDSS) dataset from Kaggle for this research. Each of the 100,000 observations in the dataset has 17 characteristics. Three distinct object kinds are included in the target feature, class:
-Galaxy Quasar (QSO) Star
+*  Galaxy
+*  Quasar (QSO)
+*  Star
