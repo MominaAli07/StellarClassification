@@ -8,3 +8,26 @@ We obtained the Sloan Digital Sky Survey (SDSS) dataset from Kaggle for this res
 *  Galaxy
 *  Quasar (QSO)
 *  Star
+
+## Dataset Features
+
+| Feature        | Description                                                   |
+|----------------|---------------------------------------------------------------|
+| Obj ID         | Object Identifier, the unique value that identifies the object|
+| alpha          | Right Ascension angle (at J2000 epoch)                        |
+| delta          | Declination angle (at J2000 epoch)                            |
+| u              | Ultraviolet filter in the photometric system                  |
+| g              | Green filter in the photometric system                        |
+| r              | Red filter in the photometric system                          |
+| i              | Near Infrared filter in the photometric system                |
+| z              | Infrared filter in the photometric system                     |
+| class          | Object class (galaxy, star, or quasar object)                 |
+| MJD            | Modified Julian Date                                          |
+| spec_obj_ID    | Unique ID used for optical spectroscopic objects              |
+| run_ID         | Run Number used to identify the specific scan                 |
+| rereun_ID      | Rerun Number to specify how the image was processed           |
+| cam_col        | Camera column to identify the scanline within the run         |
+| field_ID       | Field number to identify each field                           |
+| redshift       | Redshift value based on the increase in wavelength            |
+| plate          | Plate ID, identifies each plate in SDSS                       |
+
